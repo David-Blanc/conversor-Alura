@@ -1,12 +1,6 @@
 package principal;
 
 import javax.swing.JOptionPane;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
-
-import conexion.Conexion;
 import conversorMoneda.SeleccionConversion;
 import conversorTemperatura.SeleccionConversionTemp;
 
@@ -25,7 +19,7 @@ public class Principal {
 					JOptionPane.PLAIN_MESSAGE,
 					null,
 					opciones,
-					"Moneda");
+					"Temperatura");
 			if (cuadroOpciones != null) {
 				switch (cuadroOpciones) {
 				case "Temperatura": {
