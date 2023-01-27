@@ -10,7 +10,7 @@ Challenge de Oracle Next Education y Alura: <b>Crea tu propio conversor de moned
 
 Detalles del proyecto:
 - Además de divisas (USD, EUR y ARS) también convierte temperaturas (ºC, ºF y K).
-- Los valores de las divisas se obtienen a través de dos diferencias APIs (por lo que los resultados obtenidos estarán relativamente actualizados).
+- Los valores de las divisas se obtienen a través de dos diferentes APIs (por lo que los resultados obtenidos estarán relativamente actualizados).
 - Se hace uso de Maven para la gestión de dependencias, particularmente para uso de la librería json.simple.
 
 <br>
